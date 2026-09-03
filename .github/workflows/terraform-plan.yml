@@ -19,8 +19,7 @@ jobs:
 
       - name: Terraform Plan
         run: |
-        terraform init
-        terraform validate
-        terraform plan
-
+          terraform init
+          terraform validate
+          terraform plan
     
